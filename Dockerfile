@@ -5,7 +5,7 @@ ENV SDK_TOOLS_VERSION 25.2.5
 ENV API_LEVELS android-25
 ENV BUILD_TOOLS_VERSIONS build-tools-25.0.2
 ENV ANDROID_EXTRAS extra-android-m2repository,extra-google-google_play_services,extra-google-m2repository
-ENV ANDROID_IMAGES sys-img-x86-google_apis-25
+ENV ANDROID_IMAGES sys-img-x86-google_apis-25,sys-img-armeabi-v7a-google_apis-25
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
 ENV DEBIAN_FRONTEND noninteractive
 ENV DISPLAY=:0
